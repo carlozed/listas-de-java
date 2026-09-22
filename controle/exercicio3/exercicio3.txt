@@ -1,0 +1,4 @@
+Escreva um codigo que o usuario entre com um primeiro número, um segundo numero maior que o primeiro 
+e escolhe entre a opção par e impar, com isso o código deve informar todos os números pares ou
+impares (de acordo com a seleção inicial) no intervalo de números informados,incluindo os
+números informados e em ordem decrescente;
