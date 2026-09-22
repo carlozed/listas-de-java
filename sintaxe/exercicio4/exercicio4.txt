@@ -1,0 +1,8 @@
+Escreva um código que receba o nome e a idade de 2 pessoas e imprima a diferença de idade entre elas
+
+receber nomes
+string nome1, nome2
+receber idades
+int idade1, idade2
+diferença = absoluto(idade1 - idade2)
+print(diferenca)
