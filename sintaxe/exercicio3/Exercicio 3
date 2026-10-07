@@ -1,0 +1,11 @@
+Exercicio 3
+Escreva um código que receba a base e a altura de um retângulo, calcule sua área e exiba na tela
+fórmula: área = base x altura
+
+float base
+float altura
+float area
+print escreva base e altura
+receber base e altura
+area = base x altura
+print resultado

@@ -1,0 +1,12 @@
+escreva um código onde o usuário informa um número inicial,
+posteriormente irá informar outros N numeros, a execução
+do codigo irá continuar até que o numero informado dividido
+pelo primeiro numero tenha resto diferente de 0 na divisão,
+números menores que o primeiro número devem ser ignorados.
+
+entra -> numero1, numero2, ..., numeroN
+para quando numeroN % numero1 != 0
+enquanto (numeroN == numeroN % numero1 = 0)
+continue;
+default (numeroN % numero1 != 0)
+codigo para
