@@ -1,4 +1,4 @@
-package nivel1_fundamentos;
+package poo.interfaceslambda.nivel1_fundamentos;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import java.util.List;
  * EXERCÍCIO 1: Gateway de Pagamentos (Contrato Básico e Polimorfismo)
  *
  * Como compilar e rodar a partir da pasta exercicios-java:
- * javac nivel1_fundamentos/Ex01GatewayPagamento.java
- * java nivel1_fundamentos.Ex01GatewayPagamento
+ * javac poo/interfaceslambda/nivel1_fundamentos/Ex01GatewayPagamento.java
+ * java poo.interfaceslambda.nivel1_fundamentos.Ex01GatewayPagamento
  */
 public class Ex01GatewayPagamento {
 

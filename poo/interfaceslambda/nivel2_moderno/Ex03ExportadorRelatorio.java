@@ -1,12 +1,12 @@
-package nivel2_moderno;
+package poo.interfaceslambda.nivel2_moderno;
 
 
 /**
  * EXERCÍCIO 3: Sistema de Exportação (default, static e private em Interfaces)
  *
  * Como rodar:
- * javac nivel2_moderno/Ex03ExportadorRelatorio.java
- * java nivel2_moderno.Ex03ExportadorRelatorio
+ * javac poo/interfaceslambda/nivel2_moderno/Ex03ExportadorRelatorio.java
+ * java poo.interfaceslambda.nivel2_moderno.Ex03ExportadorRelatorio
  */
 public class Ex03ExportadorRelatorio {
 

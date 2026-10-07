@@ -1,4 +1,4 @@
-package nivel3_funcional;
+package poo.interfaceslambda.nivel3_funcional;
 
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -7,8 +7,8 @@ import java.util.function.Predicate;
  * EXERCÍCIO 5: Interfaces Funcionais Customizadas e Composição (Predicate / Function)
  *
  * Como rodar:
- * javac nivel3_funcional/Ex05LambdasEComposicao.java
- * java nivel3_funcional.Ex05LambdasEComposicao
+ * javac poo/interfaceslambda/nivel3_funcional/Ex05LambdasEComposicao.java
+ * java poo.interfaceslambda.nivel3_funcional.Ex05LambdasEComposicao
  */
 public class Ex05LambdasEComposicao {
 

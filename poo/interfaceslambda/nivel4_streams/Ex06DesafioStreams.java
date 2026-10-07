@@ -1,4 +1,4 @@
-package nivel4_streams;
+package poo.interfaceslambda.nivel4_streams;
 
 import java.util.*;
 import java.util.function.*;
@@ -8,8 +8,8 @@ import java.util.stream.*;
  * EXERCÍCIO 6 (DESAFIO INTEGRADOR): Pipeline Completo de E-Commerce com Streams
  *
  * Como rodar:
- * javac nivel4_streams/Ex06DesafioStreams.java
- * java nivel4_streams.Ex06DesafioStreams
+ * javac poo/interfaceslambda/nivel4_streams/Ex06DesafioStreams.java
+ * java poo.interfaceslambda.nivel4_streams.Ex06DesafioStreams
  */
 public class Ex06DesafioStreams {
 

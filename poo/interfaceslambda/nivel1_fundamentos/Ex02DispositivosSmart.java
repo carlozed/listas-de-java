@@ -1,4 +1,4 @@
-package nivel1_fundamentos;
+package poo.interfaceslambda.nivel1_fundamentos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.List;
  * EXERCÍCIO 2: Dispositivos Inteligentes (Herança Múltipla de Interfaces)
  *
  * Como rodar:
- * javac nivel1_fundamentos/Ex02DispositivosSmart.java
- * java nivel1_fundamentos.Ex02DispositivosSmart
+ * javac poo/interfaceslambda/nivel1_fundamentos/Ex02DispositivosSmart.java
+ * java poo.interfaceslambda.nivel1_fundamentos.Ex02DispositivosSmart
  */
 public class Ex02DispositivosSmart {
 

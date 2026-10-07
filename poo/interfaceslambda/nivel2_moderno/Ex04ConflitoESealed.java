@@ -1,11 +1,11 @@
-package nivel2_moderno;
+package poo.interfaceslambda.nivel2_moderno;
 
 /**
  * EXERCÍCIO 4: O Problema do Diamante e Sealed Interfaces (Java 17+)
  *
  * Como rodar:
- * javac nivel2_moderno/Ex04ConflitoESealed.java
- * java nivel2_moderno.Ex04ConflitoESealed
+ * javac poo/interfaceslambda/nivel2_moderno/Ex04ConflitoESealed.java
+ * java poo.interfaceslambda.nivel2_moderno.Ex04ConflitoESealed
  */
 public class Ex04ConflitoESealed {
 
@@ -25,8 +25,11 @@ public class Ex04ConflitoESealed {
 
     // TODO 1: Descomente "implements AutenticadorLocal, AutenticadorOAuth"
     // e resolva o conflito sobrescrevendo autenticar() usando Interface.super.autenticar()
-    public static class SistemaHibrido /* implements AutenticadorLocal, AutenticadorOAuth */ {
-        
+    public static class SistemaHibrido  implements AutenticadorLocal, AutenticadorOAuth {
+        @Override
+        public void autenticar(){
+            AutenticadorLocal.super.autenticar();
+        }
     }
 
     // --- PARTE B: Sealed Interfaces (Java 17+) ---
@@ -41,6 +44,10 @@ public class Ex04ConflitoESealed {
         // TODO 2: Trate os 3 tipos possíveis de ResultadoOperacao (usando if/instanceof ou switch)
         if (res instanceof Sucesso s) {
             System.out.println("Sucesso! Dados: " + s.payload());
+        } else if (res instanceof ErroValidacao e){
+            System.out.println("Erro de validação: " + e.campo() + e.mensagem());
+        } else if (res instanceof ErroServidor s){
+            System.out.println("Erro no servidor: " + s.statusCode());
         }
     }
 
